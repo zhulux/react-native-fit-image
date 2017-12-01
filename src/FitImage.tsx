@@ -140,6 +140,7 @@ class FitImage extends Component<IFitImageProps, IFitImageState> {
         onLoad={this.onLoad}
         onLoadStart={this.onLoadStart}
         source={this.props.source}
+        imageStyle={this.props.imageStyle}
         style={[
           this.style,
           this.sizeStyle,
